@@ -1,0 +1,16 @@
+{
+  "name": "fbd-usage-counter",
+  "version": "1.0.0",
+  "description": "This little script gathers the current usage data for further analysis.",
+  "main": "src/get-current-occupation.ts",
+  "scripts": {
+    "start": "npx ts-node src/get-current-occupation.ts"
+  },
+  "dependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true
+}
